@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color:beige;
+    font-family: 'Indie Flower', cursive;
+
+}
+.nav {
+    height: 70px;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items:center;
+ }
+.nav-right-items{
+    display: flex;
+    margin-left: auto;
+    font-size: 30px; }
+.nav-left-items{
+    margin-right: auto;
+    display: flex;
+    font-size: 30px;}
+    .nav-item{
+    margin-left: 10px;
+    
+ }
