@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>So Jae Hyun</title>
-        <link href="css/styles.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
-    </head>
-    <style>
- .txt_animate{
-    font-size: 64px;
-    text-align: center;
- }
- h2 {
-    font-size: 64px;
-    text-align: center;
- }
- img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
- }.txt_animate span {
-  color:blue;
-  opacity: 0;
-  transform: translate(-300px, 0) scale(0);
-  animation:txtE 1.5s infinite;
-}
+  <head>
+    <meta charset="utf-8" />
+    <title>So Jae Hyun</title>
+    <link rel="shortcut icon" href="https://wecode.co.kr/favicon.ico" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .txt_animate {
+      font-size: 64px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 64px;
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .txt_animate span {
+      color: blue;
+      opacity: 0;
+      transform: translate(-300px, 0) scale(0);
+      animation: txtE 1.5s infinite;
+    }
 
-@keyframes txtE {
-  60% {
-    transform: translate(20px, 0) scale(1);
-    color:blue;
-  }
+    @keyframes txtE {
+      60% {
+        transform: translate(20px, 0) scale(1);
+        color: blue;
+      }
 
-  80% {
-    transform: translate(20px, 0) scale(1);
-    color:blue;
-  }
+      80% {
+        transform: translate(20px, 0) scale(1);
+        color: blue;
+      }
 
-  90% {
-    transform: translate(0) scale(1.2);
-    color:skyblue;
-  }
+      90% {
+        transform: translate(0) scale(1.2);
+        color: skyblue;
+      }
 
-  100% {
-    transform: translate(0) scale(1);
-    opacity: 1;
-    color:blue;
-  }
-}
-.txt_animate span:nth-of-type(2) {
-  animation-delay: .05s;
-}
-.txt_animate span:nth-of-type(3) {
-  animation-delay: .1s;
-}
-.txt_animate span:nth-of-type(4) {
-  animation-delay: .15s;
-}
-.txt_animate span:nth-of-type(5) {
-  animation-delay: .2s;
-}
-.txt_animate span:nth-of-type(6) {
-  animation-delay: .25s;
-}
-.txt_animate span:nth-of-type(7) {
-  animation-delay: .3s;
-}
-
-    </style>
-    <body>
-  <div class="nav">
+      100% {
+        transform: translate(0) scale(1);
+        opacity: 1;
+        color: blue;
+      }
+    }
+    .txt_animate span:nth-of-type(2) {
+      animation-delay: 0.05s;
+    }
+    .txt_animate span:nth-of-type(3) {
+      animation-delay: 0.1s;
+    }
+    .txt_animate span:nth-of-type(4) {
+      animation-delay: 0.15s;
+    }
+    .txt_animate span:nth-of-type(5) {
+      animation-delay: 0.2s;
+    }
+    .txt_animate span:nth-of-type(6) {
+      animation-delay: 0.25s;
+    }
+    .txt_animate span:nth-of-type(7) {
+      animation-delay: 0.3s;
+    }
+  </style>
+  <body>
+    <div class="nav">
       <div class="nav-left-items">
-          <div class="nav-items"><a href="https://wecode.co.kr"target="blank"><font color="black">WECODE</font></a> </div>
+        <div class="nav-items">
+          <a href="https://wecode.co.kr" target="blank"
+            ><font color="black">WECODE</font></a
+          >
+        </div>
       </div>
       <div class="nav-right-items">
-        <div class="nav-item"><a href="index.html"><font color="black">HOME</font></a></div>
-        <div class="nav-item"><a href="about me.html"><font color="black">about me</font></a></div>
-        <div class="nav-item"><a href="like.html"><font color="black">Like</font></a></div>
-     </div>
+        <div class="nav-item">
+          <a href="index.html"><font color="black">HOME</font></a>
+        </div>
+        <div class="nav-item">
+          <a href="about me.html"><font color="black">about me</font></a>
+        </div>
+        <div class="nav-item">
+          <a href="like.html"><font color="black">Like</font></a>
+        </div>
+      </div>
     </div>
-  <div class="txt_animate">제가 좋아하는것은 <span>축</span><span>구</span> 
-    <span>입</span><span>니</span><span>다</span></div>
-  <img src="축구.jpeg" width="500">
-  <div class="txt_animate">좋아하는 축구선수는 <span>손</span><span>흥</span><span>민</span>
-    <span>입</span><span>니</span><span>다</span></div>
-  <img src="손흥민.jpeg" width="500">
-
-    </body>
+    <div class="txt_animate">
+      제가 좋아하는것은 <span>축</span><span>구</span> <span>입</span
+      ><span>니</span><span>다</span>
+    </div>
+    <img src="축구.jpeg" width="500" />
+    <div class="txt_animate">
+      좋아하는 축구선수는 <span>손</span><span>흥</span><span>민</span>
+      <span>입</span><span>니</span><span>다</span>
+    </div>
+    <img src="손흥민.jpeg" width="500" />
+  </body>
 </html>
