@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #fafafa;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  border: 1px solid #e9e9e9;
+  height: 60px;
+}
+.navleft {
+  display: flex;
+  font-size: 20px;
+}
+.navlogo {
+  font-family: "Lobster", cursive;
+}
+img {
+  width: 20px;
+}
+.explore {
+  margin-right: 20px;
+}
+.heart {
+  margin-right: 20px;
+}
+input {
+  background-image: url(https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-256.png);
+  background-position: 30px center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 0px 5px;
+  text-indent: 20px;
+
+  width: 120px;
+}
